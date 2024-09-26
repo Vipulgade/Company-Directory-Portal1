@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(0 77% 22%);
+   
+   
+    
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+   color: #000;
+   
+}
+
+section {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+#outer{
+    width: 90%;
+    height: 90%;
+    border: 1px solid  white;
+    border-radius: 20px;  
+    background-color: white;
+    padding-left: 20px;
+    margin-left: 40px;
+}
+/* Form Section */
+#registration {
+    background-color:#bfdaf2;
+    
+    border-radius: 10px;
+    width: 89%;
+    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#emp{
+    text-align: center;
+    padding: auto;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+#registration form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+input{
+    border-radius: 5px;
+    
+}
+
+#textd{
+    font-weight: bold;
+}
+ input, select {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0381ffe4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003366;
+}
+#employeeList{
+    padding: 10px;
+    list-style: none;
+    width: 89%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+/* Employee List Section */
+#list {
+    padding: 10px;
+    list-style: none;
+   
+    background-color: #f9f9f9;
+}
+
+#employeeList ol li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#employeeList ol li a {
+    text-decoration: none;
+    color: #0381ffe4;
+}
+
+#employeeList ol li a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Employee Details Table */
+#employeeDetails{
+    width: 89%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fafbfc;
+    text-align: center;
+}
+table {
+    width: 850px;
+    padding-left: 10x;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #0381ffe4;
+    color: white;
+}
+
+
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Map Styling */
+iframe {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    section {
+        max-width: 100%;
+    }
+
+    #registration {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+}

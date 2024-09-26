@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div id="outer">
+    <header>
+        <h1>Company Directory Portal</h1>
+    </header>
+
+    <!-- Employee Registration Form -->
+    <section id="registration">
+        <h2 id="emp">Employee Registration Form</h2>
+        <form id="employeeForm">
+            <label id="textd" for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label id="textd" for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label id="textd" for="department">Department:</label>
+            <select  id="department" name="department" required>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                
+                <option value="Finance">Finance</option>
+            </select>
+
+            <label id="textd" for="employeeId">Employee ID:</label>
+            <input type="number" id="employeeId" name="employeeId" required>
+
+            <label  id="textd" for="profilePic">Profile Picture URL:</label>
+            <input type="url" id="profilePic" name="profilePic" required>
+
+            <button type="submit">Register Employee</button>
+        </form>
+    </section>
+
+    
+    <section id="employeeList">
+        <h2>Employee List</h2>
+        <ol id="list">
+            <li><a href="mail:gadevipul1998@gmail.com">1. Vipul Gade - gadevipul1998@gmail.com</a></li>
+            <li><a href="mail:vishal5286@gmail.com">2. Vishal kolpe -vishal5286@gmail.com </a></li>
+        </ol>
+    </section>
+
+    <!-- Employee Details Table -->
+    <section id="employeeDetails">
+        <h2>Employee Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vishal kolpe</td>
+                    <td>245</td>
+                    <td>IT</td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScRxBXX3rcR-YaJKz_-SnzlqNDGY19R2pFBJeAAQd2Pa67WjbihKjre2SYMONQYY7KrLE&usqp=CAU" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Vipul Gade</td>
+                    <td>658</td>
+                    <td>HR</td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScRxBXX3rcR-YaJKz_-SnzlqNDGY19R2pFBJeAAQd2Pa67WjbihKjre2SYMONQYY7KrLE&usqp=CAU" style="border-radius: 40px; background-color:darkgrey;" alt="50*50"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="companyLocation">
+        <h2 style="text-align: center; padding: 20px;">Company Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.198607811172!2d78.38741457493744!3d17.498030183408165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1727262143733!5m2!1sen!2sin"
+            width="850" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    </div>
+</body>
+</html>
